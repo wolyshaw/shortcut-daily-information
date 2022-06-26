@@ -1,0 +1,14 @@
+name = "shortcut-daily-information"
+main = "src/index.ts"
+compatibility_date = "2022-06-25"
+
+[vars]
+NEWES_URL = "<新闻请求URL>"
+WEATHUR_URL = "<天气请求URL>"
+WEATHUR_TOKEN = "<天气请求密钥>"
+INIT_QUERYLIST = "Time,Weather,News"
+
+[[kv_namespaces]]
+binding = "DAILY_KV"
+preview_id = "<KV 存储id>"
+id = "<KV 存储id>"
